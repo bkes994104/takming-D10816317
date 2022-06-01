@@ -5,7 +5,9 @@
     </v-main>
   </v-app>
 </template>
-
+<style>
+  @import'./assets/css/style.css';
+</style>
 <script>
 
 export default {
