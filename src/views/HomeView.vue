@@ -1,7 +1,6 @@
 <template>
-  <div> 
-    <h1>Home</h1>
-    <p>This is the Home page</p>
+  <div class="primary"> 
+    123132131
   </div>
 </template>
 
