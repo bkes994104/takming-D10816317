@@ -12,15 +12,15 @@
         <v-card height="150px" class="px-5 py-3 d-flex flex-column rounded-lg">
           <div class="d-flex align-center flex-grow-0">
             <h3 class="primary--text">
-              王小明
+              <strong>{{user.name}}</strong>
             </h3>
             <h4 class="gray--text ml-auto" >
-              男
+              <strong>{{user.gender}}</strong>
             </h4>
           </div>
           <div class="flex-grow-0">
             <span class="gray--text">
-              2021062011493428
+              <strong>{{user.UID}}</strong>
             </span>
           </div>
           <div class="d-flex align-end flex-grow-1">
@@ -28,7 +28,7 @@
               mdi-gmail
             </v-icon>
             <span class="secondary--text">
-              Takmig001@takming.edu.tw
+              <strong>{{user.email}}</strong>
             </span>
           </div>
         </v-card>
@@ -40,7 +40,23 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      user: {
+        name: '王小明',
+        UID: "2021062012003739",
+        SID: "ROOT",
+        CID: "",
+        name: "Am",
+        phone: "0987654334",
+        gender: "M",
+        email: "Takming014@takming.edu.tw",
+        zip: 300,
+        address: "新竹縣湖口鄉德和路228號",
+        createTime: "2021-06-20 12:00:37",
+        updateTime: "2021-06-20 12:00:37",
+        isDelete: null
+      }
+    };
   }
 };
 </script>
