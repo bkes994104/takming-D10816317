@@ -7,7 +7,36 @@
         </h1>
       </v-col>
     </v-row>
+    <v-row>
+      <v-col md="4">
+        <v-card height="150px">
+          <div>
+            <h3 class="primary--text">
+              王小明
+            </h3>
+            <h4 class="gray">
+              男
+            </h4>
+          </div>
+          <div>
+            <span class="gray--text">
+              2021062011493428
+            </span>
+          </div>
+          <div>
+            <v-icon left color="secondary">
+              mdi-gmail
+            </v-icon>
+            <span class="secondary--text">
+              Takmig001@takming.edu.tw
+            </span>
+          </div>
+        </v-card>
+        
+      </v-col>
+    </v-row>
   </v-container>
+  
 </template>
 <script>
 export default {
